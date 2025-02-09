@@ -75,3 +75,18 @@ Q. What makes AWS so special?
 3). RDS for managed databases,
 4). Lambda for serverless computing,
 5). CloudFront for content delivery.
+
+# AWS IAM Service (43:43)
+
+# AWS Identity & Access Management - used for user's management (roles and permission)
+
+# IAM is a service that helps us securely control access to AWS resources. It allows us to manage users, roles and permission to define who can access what within our AWS environment.
+
+# IAM is a Global level service.
+
+# Tasks under IAM :-
+1). Create Users,
+2). Assign Permissions,
+3). Create Groups
+
+# AWS IAM Create User (49:43)
