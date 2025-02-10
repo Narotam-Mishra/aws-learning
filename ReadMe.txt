@@ -96,3 +96,12 @@ Q. What makes AWS so special?
 3). Manage Federated Access,
 
 # AWS IAM MFA (1:00:30)
+
+# Ways of accessing AWS :-
+1). AWS Management Console,
+2). AWS CLI,
+3). AWS SDKs and APIs (we can automate repetative tasks)
+
+# AWS CLI (set for Window) (1:08:59)
+
+# 
