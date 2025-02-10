@@ -90,3 +90,9 @@ Q. What makes AWS so special?
 3). Create Groups
 
 # AWS IAM Create User (49:43)
+
+1). Create Roles,
+2). Define Policies,
+3). Manage Federated Access,
+
+# AWS IAM MFA (1:00:30)
