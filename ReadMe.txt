@@ -1,6 +1,8 @@
 
 # Slides - https://drive.google.com/drive/folders/1zuTNWyGelOiTALDZt7RF4E3uMHhcbIU7
 
+# AWS Console - console.aws.amazon.com
+
 # AWS Learning Notes
 
 # Topic 1 - What is Virtualization? (07:03)
