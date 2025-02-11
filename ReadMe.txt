@@ -104,4 +104,15 @@ Q. What makes AWS so special?
 
 # AWS CLI (set for Window) (1:08:59)
 
-# 
+# AWS CLI Configure (1:10:41)
+
+# command to configure AWS CLI :- `aws configure` and enter all necessary details like Access key, Secret Access Key etc,
+
+# Command to list IAM Users :- `aws iam list-users`
+
+# AWS IAM Best Practices (1:15:30)
+
+- Avoid using root account except of account setup,
+- Add user to a group and assign permission to group,
+- Use Password policy or MFA,
+- Use Access Keys for CLI/SDK
