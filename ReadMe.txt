@@ -113,8 +113,32 @@ Q. What makes AWS so special?
 # Command to list IAM Users :- `aws iam list-users`
 
 # AWS IAM Best Practices (1:15:30)
-
 - Avoid using root account except of account setup,
 - Add user to a group and assign permission to group,
 - Use Password policy or MFA,
-- Use Access Keys for CLI/SDK
+- Use Access Keys for CLI/SDK,
+- Never share ACCESS KEYS or Password,
+
+## AWS EC2 Service (1:20:08)
+
+# AWS EC2 Elastic Cloud Compute - AWS EC2 is a cloud service that provides resizable virtual servers, called instances, which we can use to run application.
+
+# Key terms related to EC2 Service :-
+# Instance Type :- Select the hardware capacity (e.g, CPU, Memory)
+
+# Amazon Machine Image (AMI) :- Choose the operating System and software (linux, mac, window)
+
+# Storage :- Configure the type and size of storage (e.g, EBS volume)
+
+# Security Groups :- Set up firewall rules to control inbound/outbound traffic,
+
+# Key Pair :- Create or use an existing key pair for SSH access.
+
+# Network Settings :- Configure VPC, subnet, and assign public or private IP addresses.
+
+# IAM Role :- Attach an IAM role for permission to access other AWS resources.
+
+# User Data :- Add scripts to be executed when the instance starts,
+
+# Elastic IP :- Optionally associate a static IP address for consistent public access.
+
