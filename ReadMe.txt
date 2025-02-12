@@ -142,3 +142,31 @@ Q. What makes AWS so special?
 
 # Elastic IP :- Optionally associate a static IP address for consistent public access.
 
+## Creating First EC2 Instance (1:24:19)
+
+# EC2 Service is a region specific service meaning whenever we create a new EC2 instance, it will be based on that region data center.
+
+# Using Userdata (1:29:58)
+
+# Userdata script to install and run Apache WebServer
+
+`
+#!/bin/bash
+# Update the system package list
+sudo yum update -y
+
+# Install Apache web server (httpd)
+sudo yum install -y httpd
+
+# Start Apache service
+sudo systemctl start httpd
+
+# Enable Apache to start on boot
+sudo systemctl enable httpd
+
+# Optional: Create a simple HTML file to verify the web server is running
+echo "<html><h1>Welcome to Apache Web Server on Amazon Linux!</h1></html>" >
+/var/www/html/index.html
+`
+
+## Overview of Groups (1:34:05)
