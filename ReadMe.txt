@@ -170,3 +170,12 @@ echo "<html><h1>Welcome to Apache Web Server on Amazon Linux!</h1></html>" >
 `
 
 ## Overview of Groups (1:34:05)
+
+# Security Groups :- Network firewall rule that control inbound and outbound traffic for instances.
+
+# Important points about security groups :-
+==> Region specific,
+==> Only 'Allow' rule (but no deny rule),
+==> All inbound traffic blocked and outbound allowed by default.
+
+## Accessing our EC2 Instance (1:43:18)
