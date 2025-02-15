@@ -179,3 +179,10 @@ echo "<html><h1>Welcome to Apache Web Server on Amazon Linux!</h1></html>" >
 ==> All inbound traffic blocked and outbound allowed by default.
 
 ## Accessing our EC2 Instance (1:43:18)
+
+Q. How to SSH into EC2 instance?
+# SSH allows us to control/access a remote machine.
+
+## SSH EC2 From Windows (1:45:37)
+
+# 
