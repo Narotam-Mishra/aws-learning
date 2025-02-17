@@ -185,4 +185,42 @@ Q. How to SSH into EC2 instance?
 
 ## SSH EC2 From Windows (1:45:37)
 
-# 
+# EC2 Termination (1:50:08)
+
+# EC2 Instance Type (1:54:01)
+
+# Link - https://aws.amazon.com/ec2/instance-types/
+
+# Case 1 : Small Website or Blog
+==> Suitable Type:t3.micro or t3.small (General Purpose)
+
+# Case 2 : E-Commerce Application 
+==> Sitable Type:m5.large or m5.xlarge (General Purpose)
+
+# Case 3 : Real-Time Video Rendering and Streaming (Acclerated Computing)
+==> Instance Type:g5.12xlarge or g5.24xlarge
+
+# Case 4: In-Memory Database for Real-Time Analytics (Memory Optimized)
+==> r6g.16xlarge or x2idn.32xlarge (Memory Optimized)
+
+## AWS EBS Service (2:00:14)
+
+# AWS EBS (Elastic Block Store) :- AWS EBS is a cloud-based storage service that provides durable, high-performance block storage for use with Amazon EC2 instances. It works like a virtual hard drive, allowing us to store and access data even when our EC2 instances are stopped or terminated.
+
+# Usecase of AWS EBS :- Suppose we are hosting a MySQL or PostreSQL DB, we need reliable, high-performance storage to handle frequent read/write operations. EBS provides persistent, fast storage that ensures our data is saved even if the EC2 instance is stopped or restarted, making it ideal for database workloads.
+
+# Key Points EBS (2:03:27)
+
+- Region & AZ specific
+- Build-in Redundancy :- EBS volumes are automatically replicated within the same Availability Zone to prevent data loss due to hardware failures.
+
+- Different Volume Types :- gp2/3, io1/2, st1, sc1
+- Allow Encryption & Snapshot for backup
+
+# Termination on Delete (2:09:22)
+
+# Create and Attach EBS (2:11:59)
+
+# Task :- Create an EBS and attach it to the EC2 Instance
+
+# Modify Size EBS Volume (2:15:12)
