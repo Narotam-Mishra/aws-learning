@@ -224,3 +224,30 @@ Q. How to SSH into EC2 instance?
 # Task :- Create an EBS and attach it to the EC2 Instance
 
 # Modify Size EBS Volume (2:15:12)
+
+# Detach and Delete EBS (2:16:24)
+
+# Snapshot of EBS (2:17:21)
+
+# What if we want to copy our data to 
+- New AZ
+- New Region
+
+# Command to check backup --> `df -h`
+
+# Unmount EBS (2:28:10)
+
+# EBS Snapshot Copy to Other Region (2:30:49)
+
+# EBS Encryption (2:32:55)
+
+# We can encrypt both the boot and data volumes of an EC2 instance. When we create an encrypted EBS volume and attach it to a supported instance type, the following types of data are encrypted :-
+- Data at rest inside the volume
+- All data moving between the volume and the instance
+- All snapshots created from the volume
+
+# More Info - https://docs.aws.amazon.com/ebs/latest/userguide/how-ebs-encryption-works.html
+
+# EBS Lifecycle Manager (2:34:40)
+
+# AWS AMI Service (2:39:57)
