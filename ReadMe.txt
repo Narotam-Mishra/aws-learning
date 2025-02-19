@@ -251,3 +251,27 @@ Q. How to SSH into EC2 instance?
 # EBS Lifecycle Manager (2:34:40)
 
 # AWS AMI Service (2:39:57)
+
+# AMI (Amazon Machine Image) :- An Amazon Machine Image is a pre-configured template that provides the necessary information to launch an EC2 instance in AWS. It includes :-
+- Operating system (e.g, linux, Windows)
+- Application server (e.g., Apache Nginx)
+- Pre-installed software and configurations
+
+# Types of AWS AMIs :-
+1). Public AMIs :- Available to all AWS uers.
+2). Private AMIs :- Created by a user and only available within that account or shared with specific accounts.
+3). Paid AMIs / marketplace AMIs :- Provided by third parties through AWS Marketplace.
+
+## Usecase of Paid AMIs :-
+- Rapid Deployment
+- Scalability and Load Balancing
+- Cost Efficiency
+
+# Create Launch Template Vs Create Image (2:51:08)
+
+# Create Launch template create a reusable blueprint for launching instances whereas Create Image (AMI) create a custom AMI snapshot of an instance.
+
+# EC2 Image Builder (2:55:07)
+
+- Automate VM or Image Creation :- creation, testing and deployment of AMIs
+- Can be configured to run at regular intervals (e.g., daily, weekly or monthly)
