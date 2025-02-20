@@ -275,3 +275,29 @@ Q. How to SSH into EC2 instance?
 
 - Automate VM or Image Creation :- creation, testing and deployment of AMIs
 - Can be configured to run at regular intervals (e.g., daily, weekly or monthly)
+
+## AWS ELB & ASG Service (2:56:45)
+
+# AWS ELB (Elastic Load Balancing) and ASG (Auto Scaling Groups)
+
+# Scalability :- Scalability means the ability to grow our system's resources when our application or website gets more traffic or more users.
+
+# Types of Scalability :- There are two types of Scalability :-
+1). Vertical Scalability (Scaling Up) :- Vertical Scalability means adding more power (CPU, RAM) to our existing server. Example :- t2.micro to m5.large
+
+2). Horizontal Scalability (Scaling Out) :- Horizontal Scalability means adding more instances (servers) to distribute the load. We can add more EC2 instances behind a load balancer.
+
+# High Availability (HA) :- High Availability means keeping our service up and running with minimal downtime, so it's always accessible to users. Example :- running resources in multiple AZs.
+
+# Elasticity :- Elasticity means the ability to automatically adjust resources as the demand changes, meaning adding more when needed and removing when it's no longer necessary. Example :- ASG (Auto Scaling Group) 
+
+# There are three types of Load Balancer :-
+1). Application Load Balancer (ALB) :- Choose an Application Load Balancer when you need a flexible feature set for your applications with HTTP and HTTPS traffic. Operating at the request level, Application Load Balancers provide advanced routing and visibility features targeted at application architectures.
+
+2). Network Load Balancer (NLB) :- Choose a Network Load Balancer when you need ultra-high performance, TLS offloading at scale, centralized certificate deployment, support for UDP, and static IP addresses for your applications.
+
+3). Gateway Load balancer (GLB) :- Choose a Gateway Load Balancer when you need to deploy and manage a fleet of third-party virtual appliances. These appliances enable you to improve security, compliance, and policy controls.
+
+## Elastic Load Balancer Points (3:15:47)
+
+
