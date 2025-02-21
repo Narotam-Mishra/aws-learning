@@ -298,6 +298,45 @@ Q. How to SSH into EC2 instance?
 
 3). Gateway Load balancer (GLB) :- Choose a Gateway Load Balancer when you need to deploy and manage a fleet of third-party virtual appliances. These appliances enable you to improve security, compliance, and policy controls.
 
-## Elastic Load Balancer Points (3:15:47)
+## Elastic Load Balancer Important Points (3:15:47)
+- Distribute Traffic :- It splits incoming traffic across multiple servers so no single server gets overloaded.
 
+- Improves Availability :- If one server goes down, the load balancer automatically sends traffic to the working servers, ensuring our application stays available.
 
+- Scale Resources :- It helps manage high demand by adding more servers during peak times and distributing the load.
+
+- Single point of Access need to be exposed.
+- HA across AZs.
+
+# Setps for creating AWS ELB :-
+1). Setup EC2 Instances :- Setup atleast 2 EC2 instances,
+2). Configure Security Groups,
+3). Create the Load Balancer,
+4). Register Targets,
+5). Test the Load Balancer,
+
+# Auto Scaling Group (ASG) (3:19:24)
+
+# Using Load Balancer and doing all setup are done manually.
+
+# AWS ASG (Auto Scaling Group) is a service that automatically adds or removes EC2 instances based on demand to ensure our application is always available. It helps scale up when more capacity is needed and scale down during low usage to save costs, keeping the right number of servers running at all times.
+
+# Main functions of ASG :-
+1). Automatic Scaling,
+2). Maintain Instance Health,
+3). Use Scaling Policies,
+4). Ensure Availability
+5). Schedule Scaling,
+6). Distribute Instances,
+7). Integrate with ELB,
+8). Optimize Costs
+
+# Steps to create ASG :-
+1). Launch Template or Configuration,
+2). Create Auto Scaling Group,
+3). Select VPC and Subnets,
+4). Attach Load Balancer (optional)
+5). Configure Scaling Policies,
+6). Health Checks,
+7). Add Notifications (optional)
+8). Review and Create
