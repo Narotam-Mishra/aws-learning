@@ -340,3 +340,17 @@ Q. How to SSH into EC2 instance?
 6). Health Checks,
 7). Add Notifications (optional)
 8). Review and Create
+
+## AWS S3 Bucket (3:38:15)
+
+# AWS S3 (Simple Storage Server) :- Amazon S3 is an object storage service that offers industry-leading scalability, data availability, security, and performance. It is a region specific service.
+
+# AWS S3 is a cloud-based storage service that allows us to store, manage, and retrieve large amounts of data like files images, videos and backups securely and at scale. It provides higly reliable, scalable object storage, making our data accessible from anywhere, anytime, via the internet.
+- stores data as objects,
+- globally unique name,
+- region specific,
+- each object within a bucket is stored as key-value pair.
+
+# Maximum Object size :- 5 TB is the maximum size for a single object in Amazon S3
+
+# Host Static Website (3:47:46)
