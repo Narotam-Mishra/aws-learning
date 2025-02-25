@@ -354,3 +354,11 @@ Q. How to SSH into EC2 instance?
 # Maximum Object size :- 5 TB is the maximum size for a single object in Amazon S3
 
 # Host Static Website (3:47:46)
+
+# S3 Bucket Policies :- It is a JSON-based access control policies that we attach directly to an S3 bucket to manage permissions for accessing the bucket and its objects. It allow us to define who can access the data and what actions they can perform, such as read, write or delete, enabling fine-grained control over the security of our data stored in S3.
+
+## S3 Versioning (3:58:06)
+
+# It allows us to keep multiple versions of an object in the same bucket, providing protection against accidental deletions or overwrites.
+
+## S3 Replication (4:02:42)
