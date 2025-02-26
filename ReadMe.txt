@@ -390,4 +390,20 @@ Q. How to SSH into EC2 instance?
 
 ## AWS RDS Service (4:25:05)
 
-# 
+# AWS Relational Database Service :- AWS RDS as a managed database service that simplifies setup, operation, and scaling. Its purpose is to handle administrative tasks like backups, patching, monitoring and scaling.
+
+# Pratical Usecase - Deploy Nodejs & MySql based Backend app using Docker to AWS RDS,
+
+# Command to install Docker in AWS :- `sudo yum install docker -y`
+
+# Command to start docker :- `sudo systemctl start docker`
+
+# Command to check status of docker :- `sudo systemctl status docker`
+
+# Command to pull image :- `sudo docker pull philippaul/node-mysql-app:02`
+
+# docker run --rm -p 80:3000 -e DB_HOST="database-1.c0vqw8euiupa.us-east-1.rds.amazonaws.com" -e DB_USER="admin" -e DB_PASSWORD="Naru_aws99" -d philippaul/node-mysql-app:02
+
+# Command - `sudo docker ps`
+
+# Command to check Docker logs :- `sudo docker logs -f condescending_lumiere`
