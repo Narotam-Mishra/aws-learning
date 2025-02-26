@@ -362,3 +362,32 @@ Q. How to SSH into EC2 instance?
 # It allows us to keep multiple versions of an object in the same bucket, providing protection against accidental deletions or overwrites.
 
 ## S3 Replication (4:02:42)
+
+# It allows us to automatically copy objects from one S3 bucket to another, which can be
+- within the same region (Same-Region Replication - SRR)
+- in different regions (Cross-Region Replication - CRR)
+
+## S3 Storage Classes (4:09:39)
+1). S3 Standard :- frequently accessed data,
+2). S3 Intelligent-Tiering :- Data with unknown or unpredictable access patterns,
+3). S3 Standard-IA :- Infrequently accessed but quickly retrievable,
+4). S3 One Zone-IA :- Non-critical, infrequently accessed data,
+5). S3 Glacier :- Archival data, rarely accessed,
+6). S3 Glacier Deep archive :- Deep archival data, almost never accessed,
+7). S3 Outposts :- Local storage using AWS Outposts,
+
+## S3 Bucket Lifecycle (4:14:56)
+
+# We can use lifecycle policies to control the movement of objects between different storage classes or delete them entirely, based on specific conditions like age or inactivity.
+
+## S3 Snow Family (4:18:28)
+
+# The S3 Snow Family is a group of physical devices offered by AWS to help move large amounts of data to the cloud when using the internet isn't practical.. These devices are used when there's too much data to upload over a regular connection or when dealing with remote areas without good internet.
+
+## Amazon S3 Storage gateway (4:21:01)
+
+# It is a hybrid cloud storage service that connects on-premises environments to cloud storage in Amazon S3. It helps extend our local storage to the cloud by acting as a bridge.
+
+## AWS RDS Service (4:25:05)
+
+# 
