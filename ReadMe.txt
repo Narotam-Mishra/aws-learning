@@ -402,8 +402,16 @@ Q. How to SSH into EC2 instance?
 
 # Command to pull image :- `sudo docker pull philippaul/node-mysql-app:02`
 
-# docker run --rm -p 80:3000 -e DB_HOST="database-1.c0vqw8euiupa.us-east-1.rds.amazonaws.com" -e DB_USER="admin" -e DB_PASSWORD="Naru_aws99" -d philippaul/node-mysql-app:02
+# Command to run Docker Container :- sudo docker run --rm -p 80:3000 -e DB_HOST="database-1.c0vqw8euiupa.us-east-1.rds.amazonaws.com" -e DB_USER="admin" -e DB_PASSWORD="Naru_aws99" -d philippaul/node-mysql-app:02
 
 # Command - `sudo docker ps`
 
 # Command to check Docker logs :- `sudo docker logs -f condescending_lumiere`
+
+# Command to access MySql DB using docker :- `sudo docker run -it --rm mysql:8.0 mysql -h database-1.c0vqw8euiupa.us-east-1.rds.amazonaws.com -u admin -p`
+
+## Benefits of using RDS :-
+- High availability and fault tolerance,
+- Vertical and Horizontal Scaling,
+- Automated backups and recovery,
+- Cost Effectiveness,
