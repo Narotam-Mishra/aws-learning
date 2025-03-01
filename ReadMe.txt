@@ -415,3 +415,14 @@ Q. How to SSH into EC2 instance?
 - Vertical and Horizontal Scaling,
 - Automated backups and recovery,
 - Cost Effectiveness,
+
+## AWS DynamoDB Service (4:55:53)
+
+# AWS DynamoDB is a fast and flexible NoSQL database service for any scale.
+
+# DynamoDB is a fully managed, key-value, and document database that delivers single-digit-millisecond performance at any scale.
+
+# NoSQL :- NoSQL is a type of database designed to store and manage data in flexible, non-tablular formats, making it ideal for handling large volumes of unstructured data.
+
+# Serverless :- No need for server provisioning, software installation, maintenance, or patching.
+
