@@ -441,7 +441,7 @@ Q. How to SSH into EC2 instance?
 # IAM Access Keys
 - Create Access and Security Keys for our app to connect with DynamoDB
 
-# Command to run Docker Container :- sudo docker run --rm -p 80:3000 --name node-dynamo-app -e AWS_REGION=us-east-1 -e AWS_ACCESS_KEY_ID=AKIA3FLD4DY7MHLBLAN5 -e AWS_SECRET_ACCESS_KEY=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 philippaul/node-dynamodb-demo
+# Command to run Docker Container :- sudo docker run --rm -p 80:3000 --name node-dynamo-app -e AWS_REGION="" -e AWS_ACCESS_KEY_ID= -e AWS_SECRET_ACCESS_KEY="" philippaul/node-dynamodb-demo
 
 ## DynamoDB Acclelerator - DAX :- It is a fully managed in-memeory cache for DynamoDb.
 
