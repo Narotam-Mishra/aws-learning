@@ -426,3 +426,23 @@ Q. How to SSH into EC2 instance?
 
 # Serverless :- No need for server provisioning, software installation, maintenance, or patching.
 
+# Practical Exercise :- Deploy Docker based Node App with Dynamodb
+
+# EC2 (Docker Node-App) ----------------> DynamoDB (AWS)
+
+# DynamoDB Task :- Create table `Contacts` with primary key as `id` (Type String)
+
+# EC2 Instance 
+- sudo yum install -y docker
+- sudo service docker start
+- sudo username -aG docker ec2-user
+- sudo docker pull philippaul/node-dynamodb-demo
+
+# IAM Access Keys
+- Create Access and Security Keys for our app to connect with DynamoDB
+
+# Command to run Docker Container :- sudo docker run --rm -p 80:3000 --name node-dynamo-app -e AWS_REGION=us-east-1 -e AWS_ACCESS_KEY_ID=AKIA3FLD4DY7MHLBLAN5 -e AWS_SECRET_ACCESS_KEY=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 philippaul/node-dynamodb-demo
+
+## DynamoDB Acclelerator - DAX :- It is a fully managed in-memeory cache for DynamoDb.
+
+## AWS Lambda Function (5:24:01)
