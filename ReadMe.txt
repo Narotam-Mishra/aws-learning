@@ -446,3 +446,37 @@ Q. How to SSH into EC2 instance?
 ## DynamoDB Acclelerator - DAX :- It is a fully managed in-memeory cache for DynamoDb.
 
 ## AWS Lambda Function (5:24:01)
+
+# AWS Lambda lets us run code without thinking about servers. Using AWS Lambda we can run code for virtually any type of applications or backend service, all with zero administration.
+
+# AWS Lambda is a serverless computing service that lets us run code in response to events without managing servers.
+
+# We just upload our code and AWS automatically handles the rest, scaling as needed and only charging for the time when our code runs.
+
+# Event Driven Execution (5:30:19)
+
+# Lambda is an event-driven service, meaning that it runs our code in response to certain triggers or events.
+
+# These events can come from many different AWS services like :-
+- S3 (file upload),
+- DynamoDB (database changes),
+- API Gateway (HTTP requests),
+- CloudWatch (scheduld events) etc,
+
+# AWS Lambda Limitations :-
+- Execution Time Limit,
+- Stateless,
+- Cold Start Delays
+
+# When to use AWS Lambda :-
+- Image Processing,
+- Data Transformation,
+- Real-Time Notifications
+
+# Features of Lambda :-
+- Automatic Scaling,
+- Pay-as-You-Go,
+
+## AWS CloudFormation (5:46:25)
+
+# 
