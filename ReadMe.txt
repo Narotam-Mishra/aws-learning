@@ -479,4 +479,21 @@ Q. How to SSH into EC2 instance?
 
 ## AWS CloudFormation (5:46:25)
 
+# AWS CloudFormation is an Infrastructure as Code (IaC) service that lets us define, provision and manage AWS resources in a declarative, template-based format.
+
+# Advantages of using AWS CloudFormation :-
+- Consistency : Define infrastructure in code
+- Automation : Reduce manual work
+- Repeatable : Replicate environments
+
+# Infrastructure as Code (IaC) Tool :- Automates the creation, management, and updating of AWS infrastructure.
+
+# AWS Native :- Exclusively supports AWS resources, fully integrated with AWS services.
+
+# CLI Command to create stack - aws cloudformation create-stack --stack-name MyStackName --template-body file://path/to/template.yml
+
+# More Info on AWS CloudFormation - https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/Welcome.html
+
+## AWS Route53 Service (6:08:07)
+
 # 
