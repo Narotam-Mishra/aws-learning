@@ -496,4 +496,57 @@ Q. How to SSH into EC2 instance?
 
 ## AWS Route53 Service (6:08:07)
 
+# AWS Route53 is a scalable DNS service for domain registration, traffic routing and health checking capabalities.
+
+# We can create custom domain using AWS Route53 service.
+
+# DNS, or Domain Name System, is the internet service that translates human-friendly domain names like `www.example.com` into machine-readable IP addresses.
+
+# Default port for DNS service is: 53
+
+## Route 53: Practical Setup (6:09:41) 
+
+# We can serve our website globally with low latency.
+
+# Different types of Routing policy :-
+- Weighted,
+- Geolocation,
+- Latency,
+- Failover,
+- Maultivalue answer,
+- Geoproximity,
+
+## Route 53 : How it Works (6:27:00)
+
+Q. How does Route53 work?
+- Domain Name Registration,
+- Hosted Zone Creation,
+- DNS Records add,
+- Routing Policies setup,
+- Health Checks configuration
+
+# Types Records supported by AWS Route53 (6:29:19)
+- A Record (IPv4)
+- AAAA Record (IPv6)
+- CNAME Record
+- MX Record
+- TXT Record,
+- NS Record,
+- SRV Record,
+
+# Route53 Usecases (6:30:59)
+- Hosting Websites,
+- Load Balancing,
+- Disaster Recovery,
+- Multi-Region Deployments
+
+# Services offered by Route53 :-
+- Domain names,
+- Hosted zones,
+- Health checks,
+- Traffic flow,
+- Resolver,
+
+## AWS CloudFront CDN (6:36:44)
+
 # 
