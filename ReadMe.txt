@@ -549,4 +549,20 @@ Q. How does Route53 work?
 
 ## AWS CloudFront CDN (6:36:44)
 
+# Requirement :- We want to serve our website globally with low latency,
+
+# AWS CloudFront :- It is a Content Delivery Network (CDN) that speeds up the delivery of web content to users by caching it at servers (edge locations) close to them, improving load times and performance globally.
+
+# AWS CloudFront primarily caches static content like images, CSS, JavaScript, and videos. It can also cache dynamic content (e.g, HTML or API responses) if configured with caching policies and headers.
+
+# By default, sensitive or user-specific data and backend logic are not cached. Cache behaviour is controlled via TTLs, cache behaviour, and origin headers.
+
+# Browsers act like a mini-CDN by caching website files (like images, CSS, and JavaScript) locally on a user's device, which speeds up loading for repeat visits.
+
+# More Info :- https://aws.amazon.com/cloudfront/?nc=sn&loc=1
+
+# More about AWS CloudFront :- https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html
+
+## AWS Virtual Private Cloud (VPC) (6:54:01)
+
 # 
