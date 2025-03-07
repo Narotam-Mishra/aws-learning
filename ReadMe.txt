@@ -565,4 +565,7 @@ Q. How does Route53 work?
 
 ## AWS Virtual Private Cloud (VPC) (6:54:01)
 
-# 
+# Virtual Private Cloud (VPC) :- A private, isolated network within AWS cloud where we can launch and manage our resources securely.
+
+Q. Why we need VPC ?
+# To securely isolate and control network environments.
