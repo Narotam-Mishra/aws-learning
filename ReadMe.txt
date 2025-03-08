@@ -569,3 +569,13 @@ Q. How does Route53 work?
 
 Q. Why we need VPC ?
 # To securely isolate and control network environments.
+
+# Subnets :- A subnet is a smaller, segmented part of larger network that isolates and organizes devices within a specific IP address range.
+
+# Route Table :- A route table is a set of rules, called routes, that are used to determine where network traffic from our subnets or gateway is directed. Each subnet in our VPC must be associated with a route table, which controls the routing for that subnet.
+
+# Internet Gateway :- An Internet Gateway is a component that allows communication between instances in our VPC and the internet.
+
+# Network ACLs (Access Control Lists) :- It is a optional layer of security for our VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+
+# More Info on AWS VPC :- https://docs.aws.amazon.com/vpc/ 
