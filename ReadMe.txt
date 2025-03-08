@@ -576,6 +576,16 @@ Q. Why we need VPC ?
 
 # Internet Gateway :- An Internet Gateway is a component that allows communication between instances in our VPC and the internet.
 
-# Network ACLs (Access Control Lists) :- It is a optional layer of security for our VPC that acts as a firewall for controlling traffic in and out of one or more subnets.
+# Network ACLs (Access Control Lists) :- It is a optional layer of security for our VPC that acts as a firewall for controlling traffic in and out of one or more subnets. 
+
+# Network Address Translation (NAT) :- It enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating connections to those instances.
+
+# VPC Peering :- A networking connection between two VPCs that enables us to route traffic between them privately.
+
+# Bastion Host :- A special-purpose instance that provides secure access to our instances in private subnets.
+
+# Elastic IP Addresses :- Static IP addresses designed for dynamic cloud computing.
+
+# Direct Connect :- It establishes a dedicated network connection from your premises to AWS.
 
 # More Info on AWS VPC :- https://docs.aws.amazon.com/vpc/ 
