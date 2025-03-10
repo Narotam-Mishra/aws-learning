@@ -589,3 +589,15 @@ Q. Why we need VPC ?
 # Direct Connect :- It establishes a dedicated network connection from your premises to AWS.
 
 # More Info on AWS VPC :- https://docs.aws.amazon.com/vpc/ 
+
+## AWS VPC Manual Creation (7:27:17)
+
+## AWS Billing and Organization (7:39:25)
+
+# AWS Organizations enables you to centrally manage and consolidate all of your AWS accounts in the AWS Cloud.
+
+# More About AWS Organisation :- https://aws.amazon.com/organizations/getting-started/
+
+## AWS Amplify (7:47:19)
+
+# 
