@@ -600,4 +600,23 @@ Q. Why we need VPC ?
 
 ## AWS Amplify (7:47:19)
 
+# Amplify is a platform that simplifies 
+- Building,
+- Deploying and,
+- Hosting full-stack web and mobile apps.
+
+# Deploy Static Website (7:49:06)
+
+# CI/CD Automated Build & Deployment
+
+# Configure Custom Domain (7:53:52)
+
+# AWS Amplify Key Points :-
+- Connects to backend services like user login, data storage and APIs.
+- Offers hosting and automatic updates for web apps.
+
+# React Todo App Deployment (8:01:40)
+
 # 
+
+# More about AWS Amplify :- https://docs.amplify.aws/
