@@ -617,6 +617,14 @@ Q. Why we need VPC ?
 
 # React Todo App Deployment (8:01:40)
 
-# 
+# Setup Local Env (8:07:01)
+
+# Local AWS Credentials (8:19:21)
+
+# Making Backend updates (8:20:32)
+
+# Resource cleanup
+
+# AWS Amplify Docs - https://docs.amplify.aws/react/start/quickstart/
 
 # More about AWS Amplify :- https://docs.amplify.aws/
