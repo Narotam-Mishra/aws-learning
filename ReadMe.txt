@@ -628,3 +628,22 @@ Q. Why we need VPC ?
 # AWS Amplify Docs - https://docs.amplify.aws/react/start/quickstart/
 
 # More about AWS Amplify :- https://docs.amplify.aws/
+
+## AWS ECS (8:30:58)
+
+# Elastic Container Service (ECS) :- It is a cloud based container management service that allows us to run and manage Docker container on a cluster of virtual servers.
+
+Q. Why to use ECS ??
+# It automatically handles
+- Creation,
+- Management,
+- Updating,
+
+# ECS Terms :-
+
+- Cluster :- Group of Tasks and Services, hosts all the resources and infrastructure.
+
+- Service :- Handles Scalability and Load balancing of container.
+
+- Task :- Represents the running container of our application.
+
