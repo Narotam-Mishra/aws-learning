@@ -647,3 +647,8 @@ Q. Why to use ECS ??
 
 - Task :- Represents the running container of our application.
 
+Deployment Confuure
+
+# More about AWS ECS :- https://docs.aws.amazon.com/ecs/
+
+## AWS EKS (8:48:28)
