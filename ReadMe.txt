@@ -652,3 +652,12 @@ Deployment Confuure
 # More about AWS ECS :- https://docs.aws.amazon.com/ecs/
 
 ## AWS EKS (8:48:28)
+
+# Elastic Kubernetes Service (Amazon EKS) is a fully managed kubernetes cluster infrastructure.
+
+Q. What is Kubernetes ?
+# An open source platform for automating the deployment, scaling and management of containerized applications.
+
+# When we deploy Kubernetes, we get a cluster. Two important parts are :
+- Master (Control Plane) &
+- Worker nodes
