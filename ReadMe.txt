@@ -661,3 +661,54 @@ Q. What is Kubernetes ?
 # When we deploy Kubernetes, we get a cluster. Two important parts are :
 - Master (Control Plane) &
 - Worker nodes
+
+# More on AWS EKS :- https://docs.aws.amazon.com/eks/
+
+## Practical 
+
+# To create EKS Cluster in AutoMode 
+- `eksctl create cluster --name=<cluster-name> --enable-auto-mode`
+
+# We can also provide 
+--nodes=3
+--nodes-min=2, --nodes-max=5
+--region us-west-2
+--node-type t3.medium
+--managed/fargate
+
+## Bonus Section : Good to learn (9:16:05)
+
+Q. What is Terraform (9:16: 07)
+# Terraform is an open-source infrastructure as code (IaC) tool.
+
+Q. What is IaC?
+# It enables us to define, provision and manage infrastructure across multiple cloud providers using a declarative configuration language. It supports multi-cloud environments, allowing consistent and efficient infrastructure management.
+
+# Terraform Config
+- It uses `.tf` extension
+- Format is HCL (Hashicorp Config Language)
+- Declarative Language
+
+# Terraform supports JSON format also.
+
+# Terraform commands
+- terraform init
+- terraform plan
+- terraform apply/destroy
+
+# Advantages of using IaC tool :-
+- Consitency :- define infrastructure in code,
+- Automation :- Reduce manual work,
+- Repeatable :- Replicate environments easily
+
+# Terraform Modules :- Modules are containers for multiple resources that are used together. A module consists of a collection of `.tf` and/or `.tf.json` files kept together in a directory. Modules are the main way to package and reuse resource configurations with Terraform.
+
+# Workspaces :- Workspace-dev, Workspace-test, Workspace-prod
+
+# Terraform Cloud is a managed service provided by HashiCorp that facilitates collaboration on Terraform configurations.
+
+# Features of Terraform Cloud :-
+- remote state management,
+- version control system (VCS) integration,
+- automated runs, and
+- secure variable management
